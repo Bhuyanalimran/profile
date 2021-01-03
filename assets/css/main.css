@@ -30,9 +30,9 @@ body{
 	}
 
 .social a:hover i{
-	color: #fff;
-	border-color: #bb9e7d;
-	background-color: #bb9e7d;
+	color:white;
+	border-color:  #b2beb5;
+	background-color:  #b2beb5;
 	}
 
 
@@ -82,8 +82,8 @@ body{
 
 .btn-rabbit:hover{
 	color: #fff;
-	background-color: #bb9e7d;
-	border-color: #bb9e7d;}
+	background-color:  #b2beb5;
+	border-color: #b2beb5;}
 
 p{
 	color: #585757;
@@ -218,6 +218,37 @@ footer{
 	padding-right: 40px;
 
 	}
+	.timeline{
+		font-style: italic;	
+		font-weight: 500;
+	    font-size: 15px;
+	}
+	.office{
+		font-style: arial;
+		font-family: Arial, Helvetica, sans-serif;	
+		font-weight: 500;
+		font-size: 18px;
+		color: #3b3b3b;	
+	}
+	.inst{
+		font-style: arial;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;	
+		font-weight: 550;
+		font-size: 18px;
+		color: #3b3b3b;		
+	}
+	.heading{
+		font-style: arial;
+		font-weight: 500;
+		font-size: 20px;
+		color: #3b3b3b;
+		line-height: 28px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		padding-right: 40px;
+	
+		}
 .page-title:after{
 	width: 75%;
 	top: -9px;

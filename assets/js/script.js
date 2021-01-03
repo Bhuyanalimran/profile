@@ -16,13 +16,18 @@ $( document ).ready(function() {
                     $('#work_left').addClass('animated slideInLeft');
                     $('#work_right').addClass('animated slideInRight');
                     });
-                $("#contact").click(function(){
-                    $("#index").fadeOut();
-                    $("#contact_scroll").fadeIn();
-                    $('#contact_left').addClass('animated slideInLeft');
-                    $('#contact_right').addClass('animated slideInRight');
-                    });
-                
+                    $("#learning").click(function(){
+                        $("#index").fadeOut();
+                        $("#learning_scroll").fadeIn();
+                        $('#learning_left').addClass('animated slideInLeft');
+                        $('#learning_right').addClass('animated slideInRight');
+                        });   
+                        $("#interest").click(function(){
+                            $("#index").fadeOut();
+                            $("#interest_scroll").fadeIn();
+                            $('#interest_left').addClass('animated slideInLeft');
+                            $('#interest_right').addClass('animated slideInRight');
+                            });          
                 $(".back").click(function(){
                     $(".pages").fadeOut();
                     $("#index").fadeIn();
